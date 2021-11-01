@@ -103,6 +103,16 @@ MonoBehaviour:
   Boss: {fileID: 0}
   Power: 0
   GrowSpeed: 0.1
+  Enemies: []
+  deadBodyDecayTimer: 5
+  attackCooldownValue: 1
+  StrikeRandomModifier: 0.25
+  DefenceRandomModifier: 0.25
+  InjuryChanceModificator: 0.2
+  InjuryPowerDecreaseModificator: 0.75
+  EnemyKilledPowerIncreaseModificator: 0.1
+  RebelAdjustedPowerCoefficient: 0.3
+  SubjigationPowerCoefficient: 1.5
 --- !u!136 &329149803920794912
 CapsuleCollider:
   m_ObjectHideFlags: 0
